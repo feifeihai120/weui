@@ -7,8 +7,8 @@ env:
     - MONGODB_INSTANCE_NAME = "weui"
 
 install:
-    - npm install -g mocha
+    - npm install -g n
+    - n 0.8.27
 
 script:
     - npm install
-    - mocha
