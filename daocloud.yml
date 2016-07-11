@@ -11,4 +11,4 @@ install:
     - n 0.8.27
 
 script:
-    - npm install
+    - npm start
