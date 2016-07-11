@@ -1,0 +1,13 @@
+image: daocloud/ci-node:0.8
+
+services:
+    - mongodb
+
+env:
+    - MONGODB_INSTANCE_NAME = "weui"
+
+install:
+    - npm install
+
+script:
+    - npm install
